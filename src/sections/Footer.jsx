@@ -37,7 +37,7 @@ const Footer = () => {
                         <FaArrowRight />
                      </div>
                   </div>
-                  <p className="text-[#0A142F] text-[13px] h-full  leading-[20.4px] opacity-[0.6] lg:w-[254px]">
+                  <p className="text-[#0A142F] text-[13px] h-full w-full  leading-[20.4px] opacity-[0.6] lg:w-[254px]">
                      Get the latest exclusive real estate updates. Join our subscription and be the first to know about your dream home. Sign up now!
                   </p>
                </div>
