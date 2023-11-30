@@ -1,10 +1,10 @@
-import property2 from "/assets/property2.svg";
 import property1 from "/assets/private.svg";
 import property3 from "/assets/property3.svg";
 import property4 from "/assets/property4.svg";
 
 import popular1 from "/assets/popular1.png";
 import popular2 from "/assets/popular2.png";
+``;
 import popular3 from "/assets/popular3.png";
 import popular4 from "/assets/popular4.png";
 
@@ -18,20 +18,10 @@ export const navLinks = [
    { href: "#property", label: "For Rent" },
    { href: "#contact", label: "Sell" },
    { href: "#aboutUs", label: "About Us" },
-   { href: "#contactUs", label: "Contact" },
+   { href: "#contact", label: "Contact" },
 ];
 
 export const property = [
-   {
-      imgUrl: property1,
-      title: "Private House",
-      label: "523 Property",
-   },
-   {
-      imgUrl: property2,
-      title: "Apartment",
-      label: "142 Property",
-   },
    {
       imgUrl: property3,
       title: "Shop",
@@ -58,6 +48,7 @@ export const popular = [
    },
    {
       imgUrl: popular2,
+      title: "Solo Urbana Residence",
       label: "Jl. Mojo, Gulon, Mojosongo, Kec. Jebres, Kota Surakarta.",
       price: "23.692",
       id: "house-2",
@@ -108,7 +99,7 @@ export const news = [
       title: "NEWS",
       date: "28 dec 2023",
       label: "New Government Policies Impacting the Property Market.",
-      author: "by : Theresa Webb",
+      author: "by : Theresa",
       views: "78K views",
    },
 ];
@@ -116,36 +107,30 @@ export const footerLinks = [
    {
       title: "Product",
       links: [
-         { name: "For Sale", link: "/" },
-         { name: "For Rent", link: "/" },
-         { name: "Sell", link: "/" },
+         { name: "For Sale", link: "/", id: "i" },
+         { name: "For Rent", link: "/", id: "j" },
+         { name: "Sell", link: "/", id: "k" },
       ],
+      id: "a",
    },
    {
       title: "Pages",
       links: [
-         { name: "Information", link: "/" },
-         { name: "FAQ", link: "/" },
-         { name: "Blog", link: "/" },
-         { name: "Support", link: "/" },
+         { name: "Information", link: "/", id: "e" },
+         { name: "FAQ", link: "/", id: "f" },
+         { name: "Blog", link: "/", id: "g" },
+         { name: "Support", link: "/", id: "h" },
       ],
+      id: "b",
    },
    {
       title: "Company",
       links: [
-         { name: "About us", link: "#aboutUS" },
-         { name: "Careers", link: "/" },
-         { name: "Contact us", link: "/" },
-         { name: "Vista Property", link: "/" },
+         { name: "About us", link: "#aboutUS", id: "a" },
+         { name: "Careers", link: "/", id: "b" },
+         { name: "Contact us", link: "/", id: "c" },
+         { name: "Vista Property", link: "/", id: "d" },
       ],
-   },
-   {
-      title: "Pages",
-      links: [
-         { name: "Information", link: "/" },
-         { name: "FAQ", link: "/" },
-         { name: "Blog", link: "/" },
-         { name: "Support", link: "/" },
-      ],
+      id: "c",
    },
 ];

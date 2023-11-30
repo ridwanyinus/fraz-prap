@@ -7,7 +7,7 @@ const Hero = () => {
             Turning Your <span className="italic">Dreams</span> <br /> Into Reality.
          </h1>
 
-         <p className="max-w-[480px] max-xs:text-base text-lg capitalize leading-normal z-order">
+         <p className="max-w-[480px] max-xs:text-base text-lg capitalize leading-normal z-order max-sm:font-medium">
             Committed to Crafting Your Homeownership Dreams Into Vibrant, Lasting Realities Through Unwavering Dedication and Expertise.
          </p>
 
