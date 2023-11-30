@@ -23,7 +23,7 @@ const Footer = () => {
                   ))}
                </div>
             ))}
-            <div className="footer-card rounded h-full sm:px-5 max-sm:py-5 sm:pb-5">
+            <div className="footer-card rounded h-full px-1 sm:px-5 max-sm:py-5 sm:pb-5">
                <div className="w-fit lg:px-10 mt-2 mb-5 h-full">
                   <h2 className="text-[#0A142F] text-[19px] font-bold leading-[28px] pb-3">Subscribe</h2>
                   <div className="flex bg-white justify-center items-center rounded-[6px] border-mail w-fit mb-4  ">
