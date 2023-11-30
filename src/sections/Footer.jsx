@@ -23,14 +23,14 @@ const Footer = () => {
                   ))}
                </div>
             ))}
-            <div className="footer-card rounded h-full px-5 max-sm:py-5 sm:pb-5">
+            <div className="footer-card rounded h-full sm:px-5 max-sm:py-5 sm:pb-5">
                <div className="w-fit lg:px-10 mt-2 mb-5 h-full">
                   <h2 className="text-[#0A142F] text-[19px] font-bold leading-[28px] pb-3">Subscribe</h2>
                   <div className="flex bg-white justify-center items-center rounded-[6px] border-mail w-fit mb-4  ">
                      <input
                         type="email"
                         placeholder="Email address"
-                        className="placeholder:text-[14px] placeholder:text-[#0A142F] placeholder:opacity-[0.5] pl-3 max-md:w-[180px]border-none placeholder:border-none outline-none text-[14px]"
+                        className="placeholder:text-[14px] placeholder:text-[#0A142F] placeholder:opacity-[0.5] pl-3 max-md:w-[180px] border-none placeholder:border-none outline-none text-[14px]"
                      />
 
                      <div className="bg-primary py-4 px-4 rounded-r-[6px] text-white cursor-pointer">
