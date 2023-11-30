@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
    return (
-      <footer className="padding-y md:padding-x max-md:px-14 bg-white ">
+      <footer className="padding-y md:padding-x max-sm:px-6 bg-white ">
          <div className="max-xs:flex-col max-sm:gap-10 gap-5 flex justify-around  flex-wrap pb-6 ">
             {footerLinks.map((section) => (
                <div className="max-xl:flex-1 sm:w-fit" key={section.id}>
